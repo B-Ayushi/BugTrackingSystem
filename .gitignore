@@ -1,0 +1,9 @@
+target/
+.classpath
+.project
+.settings/
+.metadata/
+bin/
+*.log
+.DS_Store
+src/main/resources/firebase-key.json

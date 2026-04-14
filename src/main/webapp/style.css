@@ -1,0 +1,176 @@
+body {
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
+    font-family: 'Segoe UI', sans-serif;
+    min-height: 100vh;
+}
+
+.container {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 40px;
+    margin-top: 50px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+}
+
+.wide-container {
+    width: 95%;
+    max-width: 1300px;
+}
+
+.card-box {
+    max-width: 950px;
+    margin: auto;
+}
+
+h1, h2 {
+    font-weight: 700;
+    color: #1e293b;
+}
+
+p {
+    color: #475569;
+}
+
+label {
+    font-weight: 600;
+    color: #334155;
+}
+
+input, select, textarea {
+    font-size: 14px;
+    border-radius: 10px !important;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+button {
+    font-weight: 600;
+    border-radius: 10px !important;
+}
+
+.btn-group {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    justify-content: center;
+}
+
+.btn-group a,
+.btn-group button {
+    min-width: 220px;
+    padding: 18px 24px;
+    border-radius: 16px !important;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    transition: all 0.25s ease;
+}
+
+.btn-group a:hover,
+.btn-group button:hover {
+    transform: translateY(-3px);
+}
+
+.dashboard-card {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #3b82f6, #2563eb) !important;
+    border: none !important;
+    color: white !important;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #2563eb, #1d4ed8) !important;
+}
+
+.btn-success {
+    background: linear-gradient(135deg, #22c55e, #16a34a) !important;
+    border: none !important;
+    color: white !important;
+}
+
+.btn-warning {
+    background: linear-gradient(135deg, #f59e0b, #d97706) !important;
+    border: none !important;
+    color: white !important;
+}
+
+.btn-warning:hover {
+    background: linear-gradient(135deg, #d97706, #b45309) !important;
+}
+
+.btn-danger {
+    background: linear-gradient(135deg, #ef4444, #dc2626) !important;
+    border: none !important;
+    color: white !important;
+}
+
+.btn-dark {
+    border-radius: 10px !important;
+}
+
+.home-actions {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.home-actions a {
+    min-width: 180px;
+    padding: 14px 26px;
+    border-radius: 14px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+    transition: all 0.25s ease;
+}
+
+.home-actions a:hover {
+    transform: translateY(-2px);
+}
+
+.home-signin {
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+}
+
+.home-signup {
+    background: linear-gradient(135deg, #22c55e, #16a34a);
+}
+
+table {
+    background: white;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+table th {
+    background: #1e3a8a !important;
+    color: white;
+    text-align: center;
+}
+
+table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.form-control,
+.form-select {
+    border-radius: 10px !important;
+}
